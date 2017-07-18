@@ -32,6 +32,7 @@ def median(A, B):
             if (m+n)%2 == 1:
                 return max_of_left
 
+            # B[i] < A[j-1] would never happen
             if i == l2: min_of_right = A[j]
             elif j == l1: min_of_right = B[i]
             else: min_of_right = min(A[j], B[i])
