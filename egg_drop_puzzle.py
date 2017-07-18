@@ -48,5 +48,4 @@ def egg_drop_puzzle2(n, k):
         print a 
     return dp[k][n]
 print egg_drop_puzzle2(2, 10)
-
 print egg_drop_puzzle(2, 10)
