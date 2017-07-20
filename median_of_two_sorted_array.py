@@ -1,4 +1,6 @@
+
 """
+    https://discuss.leetcode.com/topic/4996/share-my-o-log-min-m-n-solution-with-explanation?page=1
     i + j = m - i + n - j (or m-i + n - j + 1) 
     2j = m - 2i + n 
     j = (m+n)/2 - i (or (m+n+1)/2 - i) 
@@ -38,9 +40,3 @@ def median(A, B):
             else: min_of_right = min(A[j], B[i])
 
             return (max_of_left+min_of_right)/2.0
-
-
-
-
-
-    
