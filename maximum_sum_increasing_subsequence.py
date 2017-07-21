@@ -21,5 +21,4 @@ def max_inc_sub_seq(A):
 
     return result
 print max_inc_sub_seq([10, 5, 4, 3])
-
 print max_inc_sub_seq([1, 101, 2, 3, 100, 4, 5])
