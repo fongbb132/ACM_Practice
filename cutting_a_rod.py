@@ -10,7 +10,6 @@ def cut_a_rod(price, n):
         result = max(result, price[i] + cut_a_rod(price, n - i - 1))
     return result
 
-
 def cut_a_rod2(price, n):
     if n <= 0 :
         return 0 
